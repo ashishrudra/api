@@ -65,6 +65,7 @@ en:
         Each requirement should represent an actionable item.
 
   home:
+    welcome : Welcome %{name}
     styleguide:
       title: Styleguide
       swatches: Swatches
