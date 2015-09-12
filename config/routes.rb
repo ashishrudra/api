@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get("/", { to: "home#index" })
   get("/glossary", { to: "home#glossary" })
   get("/styleguide", { to: "home#styleguide" })

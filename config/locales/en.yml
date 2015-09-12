@@ -7,6 +7,8 @@ en:
   nav:
     browse: Browse
     glossary: Glossary
+    sign_in: Sign In
+    sign_out: Sign Out
 
   actions:
     delete: Delete

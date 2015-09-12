@@ -20,7 +20,7 @@ input {
   width: 30%;
 }
 
-.fill-me-in input[type=text],input[type=number] {
+.fill-me-in input[type=text],input[type=number],input[type=email],input[type=password] {
   width: 60%;
   position: absolute;
   padding: 0.5em 5%;
