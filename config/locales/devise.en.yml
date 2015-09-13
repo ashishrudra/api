@@ -2,7 +2,18 @@
 
 en:
   devise:
+    name: "Name"
+    email: "Email"
     password_confirmation: "Retype your Password"
+    password: "Password"
+    remember_me: "Remember me?"
+    signup: "Sign Up"
+    signin: "Sign In"
+    update: "Update"
+    forgot_your_password: "Forgot your password?"
+    edit:
+      password: "Password ( Leave it blank if not changing )"
+      current_password: "Type your current password to confirm"
     image: "Upload an Image ( jpeg, png or gif only)"
     confirmations:
       confirmed: "Your email address has been successfully confirmed."

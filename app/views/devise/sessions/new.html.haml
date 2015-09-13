@@ -1,0 +1,13 @@
+%h2
+  = t("devise.signin")
+= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+  = devise_error_messages!
+  .fill-me-in
+    = f.label t("devise.email")
+    = f.email_field :email, autofocus: true
+  .fill-me-in
+    = f.label t("devise.password")
+    = f.password_field :password, autocomplete: "off"
+  .actions
+    = f.submit t("devise.signin")
+    = render "devise/shared/links"
